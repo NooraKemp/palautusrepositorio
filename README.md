@@ -1,2 +1,2 @@
 # palautusrepositorio
-(https://github.com/NooraKemp/ohtuvarasto)
+https://github.com/NooraKemp/ohtuvarasto
