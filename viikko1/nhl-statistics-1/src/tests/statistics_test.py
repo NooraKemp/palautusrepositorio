@@ -34,7 +34,7 @@ class TestStatistics(unittest.TestCase):
     def test_palauttaa_topMaalit_oikein(self):
         self.assertEqual(self.statistics.top(3, 2)[0].name, "Lemieux") 
 
-    def test_palauttaa_topSyoto_oikein(self):
+    def test_palauttaa_topSyotot_oikein(self):
         self.assertEqual(self.statistics.top(3, 3)[0].name, "Gretzky")  
     
 
