@@ -37,11 +37,6 @@ class UserService:
     def validate(self, username, password):
         if not username or not password:
             raise UserInputError("Username and password are required")
-        
-        taken_username = self._user_repository.find_by_username(username)
-
-        if taken_username:
-            raise UserInputError("Username is already taken") 
 
         if not re.match("^[a-z]{3,}$", username):
             raise UserInputError(

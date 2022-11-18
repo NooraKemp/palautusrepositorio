@@ -9,7 +9,7 @@ Register With Valid Username And Password
 
 Register With Already Taken Username And Valid Password
     Input Credentials  noora  joonatan123
-    Output Should Contain  Username is already taken 
+    Output Should Contain  User with username noora already exists 
 
 Register With Too Short Username And Valid Password
     Input Credentials  jo  joonatan123
