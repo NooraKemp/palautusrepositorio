@@ -41,3 +41,7 @@ class Ostoskori:
         pass
         # palauttaa listan jossa on korissa olevat ostos-oliot
         # kukin ostos-olio siis kertoo mistä tuotteesta on kyse JA kuinka monta kappaletta kyseistä tuotetta korissa on
+        ostokset = []
+        for tuote in self.tuotteet:
+            ostokset.append(tuote)
+        return ostokset
