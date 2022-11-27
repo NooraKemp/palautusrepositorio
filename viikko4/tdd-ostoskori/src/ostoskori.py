@@ -41,6 +41,7 @@ class Ostoskori:
         pass
 
     def tyhjenna(self):
+        self.tuotteet = {}
         pass
         # tyhjentää ostoskorin
 
